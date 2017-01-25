@@ -15,6 +15,16 @@
 
 	<section class="slide">
 		<h2>Хранилище данных обучения LRS</h2>
+
+        <figure>
+            <blockquote>
+                <p>Наука начинается с тех пор, как начинают измерять.</p>
+                <p>Точная наука немыслима без меры.</p>
+            </blockquote>
+
+
+            <figcaption>Дмитрий Иванович Менделеев</figcaption>
+        </figure>
 	</section>
 
   <!-- Оглавление (begin) -->
@@ -34,33 +44,59 @@
 
   <!-- Что такое LRS (begin) -->
   <section class="slide">
+    <h2>Что такое Learning Record Store?</h2>
 
-    <h2>Что такое LRS</h2>
+      <ul>
+          <li><strong>Learning Record</strong> — разнообразные логи процесса обучения</li>
+          <li><strong>Store</strong> — хранилище</li>
+      </ul>
 
-    <p>https://en.wikipedia.org/wiki/Learning_Record_Store</p>
+      <img src="./pictures/storage.jpg" alt="">
   </section>
   <!-- Что такое LRS (end) -->
 
 
   <!-- Цели и назначение LRS (begin) -->
   <section class="slide">
-
     <h2>Цели и назначение LRS</h2>
 
-    <p>http://testtrack.scorm.com/tincanoverview/what-is-an-lrs-learning-record-store/</p>
-    <p>http://tincanapi.com/learning-record-store/</p>
+      <ul>
+          <li>Запись в базу данных (+ валидация)</li>
+          <li>Храние</li>
+          <li>Доступ</li>
+          <li>Визуализация</li>
+      </ul>
   </section>
   <!-- Цели и назначение LRS (end) -->
 
+    <!-- Стуктура БД (begin) -->
+    <section class="slide">
+        <h2>Стуктура БД</h2>
+        <p>
+            <a href="https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-Data.md#statements">xAPI-Data.md#statements</a>
+        </p>
+
+        <img src="./pictures/data-structure-table.png" alt="">
+    </section>
+    <!-- Стуктура БД  (end) -->
 
   <!-- Общая схема работы (begin) -->
   <section class="slide">
-
     <h2>Общая схема работы</h2>
-
-    <p>схема jpg</p>
+      <img src="./pictures/storage-interract.png" style="height: 100%;" alt="">
   </section>
   <!-- Общая схема работы (end) -->
+
+
+
+    <section class="slide">
+        <img src="./pictures/storage-interract-devices.jpeg" style="height: 100%;">
+    </section>
+
+
+    <section class="slide">
+        <img src="./pictures/data-visualization.png" style="height: 100%;">
+    </section>
 
 
   <!-- Существующие реализации (begin) -->
@@ -68,22 +104,67 @@
 
     <h2>Существующие реализации</h2>
 
-    <p>http://adlnet.github.io</p>
-    <p>https://github.com/LearningLocker/learninglocker</p>
-    <p>https://learninglocker.net</p>
-    <p>https://github.com/easy-deep-learning/learning-record-store</p>
+      <ul>
+          <li><a href="http://adlnet.github.io">adlnet.github.io</a></li>
+          <li><a href="https://github.com/LearningLocker/learninglocker">github.com/LearningLocker/learninglocker</a></li>
+          <li><a href="https://learninglocker.net">learninglocker.net</a></li>
+          <li><a href="https://github.com/easy-deep-learning/learning-record-store">github.com/easy-deep-learning/learning-record-store</a></li>
+      </ul>
   </section>
   <!-- Существующие реализации (end) -->
 
 
   <!-- Демо (begin) -->
   <section class="slide">
-
     <h2>Демо</h2>
-
-    <p>http://adlnet.github.io/xapi-statement-viewer/</p>
   </section>
   <!-- Демо (end) -->
+
+    <!-- Демо (begin) -->
+    <section class="slide black">
+        <img src="./pictures/ADL_LRS.png" class="cover">
+    </section>
+    <!-- Демо (end) -->
+
+
+    <!-- Демо (begin) -->
+    <section class="slide black">
+        <img src="./pictures/xAPI-Statement-Viewer.png" class="cover">
+    </section>
+    <!-- Демо (end) -->
+
+    <!-- Демо (begin) -->
+    <section class="slide black">
+        <img src="./pictures/xAPI-Statement-Viewer-raw.png" class="cover">
+    </section>
+    <!-- Демо (end) -->
+
+    <section class="slide">
+        <h2 class="shout">Вопросы?</h2>
+    </section>
+
+    <section class="slide">
+        <img src="./pictures/alexbaumgertner_2014.jpg" width="300" style="float: right;" alt="alexbaumgertner">
+
+        <ul>
+            <li><a target="_blank" href="https://github.com/alexbaumgertner">github.com/alexbaumgertner</a></li>
+            <li><a target="_blank" href="https://twitter.com/alexbaumgertner">twitter.com/alexbaumgertner</a></li>
+            <li><a target="_blank" href="mailto:alex.baumgertner@gmail.com">alex.baumgertner@gmail.com</a></li>
+        </ul>
+
+        <h2>BEM</h2>
+        <ul>
+            <li><a target="_blank" href="https://bem.info/">bem.info/</a></li>
+            <li><a target="_blank" href="https://bem.info/forum/">bem.info/forum/</a></li>
+            <li><a target="_blank" href="https://tech.yandex.ru/bem/">tech.yandex.ru/bem/</a></li>
+            <li><a target="_blank" href="https://twitter.com/bem_ru">twitter.com/bem_ru</a></li>
+        </ul>
+
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Спасибо!</h2>
+    </section>
 
 	<div class="progress"></div>
 	<script src="node_modules/shower-core/shower.min.js"></script>
